@@ -102,6 +102,16 @@
             display: inline;
         }
 
+        /* Tambahan animasi bounce untuk gambar */
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
         .profile-pic {
             margin: 30px auto 20px;
             width: 150px;
@@ -110,6 +120,7 @@
             overflow: hidden;
             border: 4px solid #ffed02;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            animation: bounce 2s infinite;
         }
 
         .profile-pic img {
@@ -193,14 +204,14 @@
             transform: translateY(-3px);
         }
 
-        /* Digital Clock Style */
+        /* Digital Clock Style - diubah jadi putih */
         #digital-clock {
             font-size: 18px;
             font-weight: bold;
             position: absolute;
             top: 20px;
             right: 20px;
-            color: #ffed02;
+            color: white;
         }
 
         footer {
@@ -223,7 +234,7 @@
             </nav>
         </div>
 
-        <!-- Digital Clock (Right Top Corner) -->
+        <!-- Digital Clock -->
         <div id="digital-clock"></div>
     </header>
 
@@ -231,7 +242,7 @@
         <div class="container">
             <h1 class="typing-text">Hello, I'm <span id="typed-name" class="highlight"></span></h1>
 
-            <!-- Foto Profil -->
+            <!-- Foto Profil dengan animasi -->
             <div class="profile-pic">
                 <img src="images/joxra.jpg" alt="Foto Jonathan Rahasia" />
             </div>

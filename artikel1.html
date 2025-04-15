@@ -7,36 +7,37 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8f8f8;
-            color: #333;
+            background-color: #1a1a1a; /* Warna latar belakang hitam */
+            color: #fff; /* Teks berwarna putih untuk kontras */
             margin: 0;
             padding: 20px;
         }
 
         h1 {
-            color: #004d98;
+            color: #004d98; /* Biru gelap Barcelona */
             font-size: 32px;
             margin-bottom: 20px;
         }
 
         p {
             font-size: 16px;
-            color: #666;
+            color: #ccc; /* Teks paragraf dengan warna abu-abu terang */
             line-height: 1.6;
         }
 
         .btn-back {
-            background-color: #004d98;
+            background-color: #004d98; /* Biru gelap Barcelona */
             color: white;
             padding: 10px 20px;
             text-decoration: none;
             border-radius: 5px;
             display: inline-block;
             margin-top: 20px;
+            transition: background-color 0.3s;
         }
 
         .btn-back:hover {
-            background-color: #ffed02;
+            background-color: #ffed02; /* Efek hover dengan warna kuning khas Barcelona */
         }
 
         /* Styling untuk gambar */
@@ -45,29 +46,42 @@
             height: auto;
             border-radius: 8px;
             margin-top: 20px;
+            border: 4px solid #004d98; /* Menambahkan border dengan warna biru gelap */
         }
+
+        /* Menambahkan background yang lebih gelap pada artikel */
+        .content {
+            background-color: #2a2a2a; /* Warna latar belakang abu-abu gelap */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
     </style>
 </head>
 <body>
     <h1>Sejarah Pertemuan Klasik: Barcelona vs. Real Madrid di La Liga</h1>
 
-    <!-- Menambahkan gambar di bawah judul -->
-    <img src="images/barca vs madrid.jpg" alt="El Clasico" class="article-image">
-    
-    <p>El Clasico bukan sekadar pertandingan sepak bola—ini adalah duel yang telah berlangsung selama lebih dari satu abad, penuh dengan sejarah, rivalitas, dan momen-momen epik. Sejak pertemuan pertama pada 13 Mei 1902, ketika Barcelona mengalahkan Real Madrid 3-1 di Copa de la Coronacion, persaingan ini terus berkembang menjadi salah satu rivalitas terbesar dalam dunia olahraga.
+    <div class="content">
+        <!-- Menambahkan gambar di bawah judul -->
+        <img src="images/barca vs madrid.jpg" alt="El Clasico" class="article-image">
+        
+        <p>El Clasico bukan sekadar pertandingan sepak bola—ini adalah duel yang telah berlangsung selama lebih dari satu abad, penuh dengan sejarah, rivalitas, dan momen-momen epik. Sejak pertemuan pertama pada 13 Mei 1902, ketika Barcelona mengalahkan Real Madrid 3-1 di Copa de la Coronacion, persaingan ini terus berkembang menjadi salah satu rivalitas terbesar dalam dunia olahraga.
 
         Sepanjang sejarahnya, kedua tim telah bertemu lebih dari 250 kali di berbagai kompetisi resmi, termasuk La Liga, Copa del Rey, dan Liga Champions. Real Madrid sedikit unggul dalam jumlah kemenangan, tetapi Barcelona juga memiliki banyak momen bersejarah, seperti kemenangan 5-0 pada tahun 1974, yang dipimpin oleh Johan Cruyff.
         
         Selain aspek olahraga, El Clasico juga memiliki dimensi politik dan budaya yang kuat. Real Madrid sering dianggap sebagai simbol nasionalisme Spanyol, sementara Barcelona mewakili identitas Catalonia. Rivalitas ini semakin memperkuat tensi setiap pertemuan, menjadikannya lebih dari sekadar pertandingan biasa.
         
         Dari duel sengit antara Di Stefano dan Cruyff, hingga era modern yang menampilkan Messi dan Ronaldo, El Clasico selalu menghadirkan drama dan keajaiban sepak bola. Setiap pertandingan adalah babak baru dalam sejarah panjang persaingan ini, yang terus menarik perhatian jutaan penggemar di seluruh dunia.</p>
-    <p>Sejarah panjang El Clasico juga dipengaruhi oleh faktor politik, terutama pada masa pemerintahan Jenderal Franco di Spanyol. Barcelona menjadi simbol perlawanan terhadap rezim tersebut, sementara Real Madrid sering dikaitkan dengan pemerintah pusat. Hal ini semakin memperdalam rivalitas antara kedua klub, menjadikannya lebih dari sekadar persaingan olahraga.
+        
+        <p>Sejarah panjang El Clasico juga dipengaruhi oleh faktor politik, terutama pada masa pemerintahan Jenderal Franco di Spanyol. Barcelona menjadi simbol perlawanan terhadap rezim tersebut, sementara Real Madrid sering dikaitkan dengan pemerintah pusat. Hal ini semakin memperdalam rivalitas antara kedua klub, menjadikannya lebih dari sekadar persaingan olahraga.
 
         Pada era 1920-an, El Clasico mulai mendapatkan perhatian lebih luas, dengan pertandingan yang semakin kompetitif dan penuh emosi. Seiring berjalannya waktu, duel ini menjadi semakin intens, terutama setelah munculnya pemain-pemain legendaris yang memperkuat kedua tim. Dari era Alfredo Di Stefano hingga Lionel Messi, setiap generasi memiliki bintang yang meninggalkan jejak dalam sejarah El Clasico.
         
         Statistik menunjukkan bahwa Real Madrid dan Barcelona memiliki rekor yang sangat ketat dalam pertemuan mereka. Dengan lebih dari 250 pertandingan resmi, kedua tim terus bersaing untuk menjadi yang terbaik. Tidak hanya dalam jumlah kemenangan, tetapi juga dalam perolehan trofi dan prestasi di kompetisi domestik maupun internasional.
         
         El Clasico bukan hanya tentang kemenangan dan kekalahan, tetapi juga tentang warisan yang ditinggalkan oleh para pemain dan pelatih yang pernah terlibat dalam pertandingan ini.</p>
+    </div>
     
     <a href="blog.html" class="btn-back">Back to Blog</a>
 </body>
